@@ -1,0 +1,54 @@
+.headerWrapper {
+    position: relative;
+    width: 100vw;
+    height: 70px;
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background: #0c1a32;
+    z-index: 1;
+}
+
+.headerLogo {
+    position: absolute;
+    left: 24px;
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    height: 100%;
+    z-index: 2;
+}
+
+.logoImg {
+    height: 60%;
+    width: auto;
+}
+
+.headerAuthGroup {
+    position: absolute;
+    top: 50%;
+    right: 24px;
+    transform: translateY(-50%);
+    display: flex;
+    align-items: center;
+    gap: 12px;
+    z-index: 2;
+}
+
+.btnSignup,
+.btnLogin {
+    font-family: 'Inter', sans-serif;
+    font-weight: 600;
+    font-size: 13px;
+    line-height: 20px;
+    color: #ffffff;
+    cursor: pointer;
+}
+
+.authDivider {
+    width: 1px;
+    height: 20px;
+    background-color: #ffffff;
+}
