@@ -1,10 +1,11 @@
-# **FinSight 대시보드 구성**
+# **FinSight**
 
 <aside>
 🍑
 
 **목차**
 
+0. [프로젝트 구성]
 1. [기술스택 (Tech Stack)](#기술스택-tech-stack)
 2. [설계 (Design)](#설계-design)
 3. [기여방법 (How to Contribute)](#기여방법-how-to-contribute)
@@ -12,17 +13,36 @@
 
 </aside>
 
+
 ---
+
+
+## **0. 프로젝트 구성**
+
+finsight/
+├── backend/ # Spring Boot 기반 REST API
+├── frontend/ # Vite + React 기반 프론트엔드
+├── .gitignore
+└── README.md
+
+
+---
+
 
 ## **1. 기술스택 (Tech Stack)**
 
-- **Frontend**: React, Redux, TypeScript, Chart.js
-- **Backend**: Node.js, Express
-- **Database**: PostgreSQL
-- **DevOps**: Docker, Kubernetes, Nginx
-- **Version Control**: Git, GitHub
+## ⚙️ 기술 스택
+
+| 영역       | 기술                           |
+|------------|--------------------------------|
+| Frontend  | React, Vite, JavaScript (ES2020), Axios |
+| Backend   | Spring Boot, Java 21, Spring Web, MySQL |
+| Build     | Maven, npm                     |
+| 기타      | GitHub, RESTful API, Monorepo 구조 |
+
 
 ---
+
 
 ## **2. 설계 (Design)**
 
@@ -35,7 +55,9 @@
 - **API 호출**: REST API를 사용하여 데이터를 실시간으로 받아옴.
 - **상태 관리**: Redux로 전역 상태 관리.
 
+
 ---
+
 
 ## **3. 기여방법 (How to Contribute)**
 
@@ -44,7 +66,9 @@
 3. 변경 사항을 커밋한 후 **Pull Request**를 생성합니다.
 4. PR을 제출하고 변경 사항을 리뷰받습니다.
 
+
 ---
+
 
 ## **4. 메뉴구성 (Menu Structure)**
 
