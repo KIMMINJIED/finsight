@@ -19,11 +19,7 @@
 
 ## **0. 프로젝트 구성**
 
-finsight/
-├── backend/     # Spring Boot 기반 REST API
-├── frontend/    # Vite + React 기반 프론트엔드
-├── .gitignore   # Git 무시 파일 목록
-└── README.md    # 프로젝트 설명 문서
+<pre> finsight/ ├── backend/ # Spring Boot 기반 REST API ├── frontend/ # Vite + React 기반 프론트엔드 ├── .gitignore # Git 무시 파일 목록 └── README.md # 프로젝트 설명 문서 </pre>
 
 
 
