@@ -24,6 +24,7 @@
 .logoImg {
     height: 60%;
     width: auto;
+    max-width: 150px;
 }
 
 .headerAuthGroup {
