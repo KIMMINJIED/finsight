@@ -19,6 +19,13 @@ body {
     min-height: 100vh;
 }
 
+.app-container {
+    flex: 1;
+    margin-top: 70px;
+    overflow-y: 'auto';
+    background-color: #1e283e;
+}
+
 main {
     flex: 1;
 }
